@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tabbar/pages/tabbs/Categrory.dart';
+// import 'package:flutter_tabbar/pages/tabbs/Categrory.dart';
+import 'tabbs/Categrory.dart';
 import 'tabbs/Home.dart';
 import 'tabbs/Setting.dart';
 

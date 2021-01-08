@@ -1,6 +1,3 @@
-import 'package:flutter_tabbar/pages/User/RegisterSecond.dart';
-import 'package:flutter_tabbar/pages/User/RegisterThird.dart';
-
 import '../pages/SearchPage.dart';
 import '../pages/Form.dart';
 import 'package:flutter/material.dart';
