@@ -24,7 +24,24 @@ class _SettingPageState extends State<SettingPage>
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text("SettingPage"),
+      alignment: Alignment.center,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          RaisedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/login');
+            },
+            child: Text('登录'),
+          ),
+          RaisedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/registerFirst');
+            },
+            child: Text('注册'),
+          ),
+        ],
+      ),
     );
   }
 }

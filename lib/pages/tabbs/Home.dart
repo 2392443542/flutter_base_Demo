@@ -21,8 +21,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             RaisedButton(
               onPressed: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => SearchPage()));
+                Navigator.pushNamed(context, "/search");
               },
               child: Text('跳转到搜索页面'),
               color: Theme.of(context).accentColor,
@@ -30,7 +29,9 @@ class _HomePageState extends State<HomePage> {
             ),
             SizedBox(height: 20),
             RaisedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, "/form");
+              },
               child: Text('跳转到表单页面'),
               color: Theme.of(context).accentColor,
               textTheme: ButtonTextTheme.primary,
